@@ -516,6 +516,7 @@ section {
 .skillIcons{
   display: flex;
   margin: 20px 0px;
+  justify-content: center;
 }
 
 .skillIcons img{
