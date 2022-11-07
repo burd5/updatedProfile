@@ -526,6 +526,21 @@ section {
   justify-content: space-around;
 }
 
+.skillButtons{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+button{
+  background: rgba(15, 79, 190, 0.955);
+  padding: 5px 10px;
+  border-radius: 10px;
+  pointer-events: none;
+  color: white;
+  font-size: 18px;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -587,6 +602,9 @@ section {
   border: 2px solid #0563bb;
 }
 
+.stack{
+  list-style: none;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
