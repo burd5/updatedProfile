@@ -32,7 +32,7 @@
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button>
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
@@ -54,11 +54,11 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Austin Burdette</h1>
-      <p>I am a <span class="typed" data-typed-items="Software Engineer, Space Junkie, Full-Stack Web Developer, Aspiring Pianist, Code Enthusiast, Climber-Hiker-Adventurer-Traveler, Current Job Seeker"></span></p>
+      <p>Software Engineer and <span class="typed" data-typed-items="Space Junkie, Full-Stack Web Developer, Aspiring Pianist, Code Enthusiast, Climber-Hiker-Adventurer-Traveler, Current Job Seeker"></span></p>
       <div class="social-links">
-        <a href="https://github.com/burd5" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://www.linkedin.com/in/austin-burdette/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://twitter.com/camelCaseKing" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://github.com/burd5" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/austin-burdette/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://twitter.com/camelCaseKing" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -71,18 +71,17 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>   I am a creative, detail-oriented, software engineer with a proven track record of creating and implementing successful front and back end web applications. I am looking to bring my skills to a tech company that values public service and encourages growth among their employees.</p>
+          <p>I am a creative, detail-oriented, software engineer with a proven track record of creating and implementing successful front and back end web applications. I am looking to bring my skills to a tech company that values public service and encourages growth among their employees.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/IMG_5747.jpeg" class="img-fluid" alt="">
+            <img src="assets/img/IMG_5747.jpeg" class="img-fluid" alt="profile image">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Software Engineer &amp; Full-Stack Web Developer</h3>
             <p class="fst-italic">
-            <p>
-              My professional career has granted me opportunities to work in a variety of environments, from Maryland and Colorado, to Alaska and Cambodia. The majority of this work has been in the public service sector, including non-profits, government agencies, and volunteer organizations. These positions allowed me to develop a diverse range of technical and interpersonal skillsets. With every new job, I quickly became focused on finding ways to optimize my workflow and minimize administrative tasks. </p>
+            <p>My professional career has granted me opportunities to work in a variety of environments, from Maryland and Colorado, to Alaska and Cambodia. The majority of this work has been in the public service sector, including non-profits, government agencies, and volunteer organizations. These positions allowed me to develop a diverse range of technical and interpersonal skillsets. With every new job, I quickly became focused on finding ways to optimize my workflow and minimize administrative tasks. </p>
 
               <p>
               I learned how to use json files when creating data visualizations that showcased educational outcomes in Alaskan schools. I used JavaScript to automate case notes and data entry. I stored caseload data on over 100+ participants in MongoDB, allowing me to filter and sort them based on a variety of program metrics. These tools, which were originally intended to make my work life easier, developed into a passion. I created an app so I could view the NASA Picture of the Day. I developed a webpage to keep tabs on my friend’s food recommendations. </p>
@@ -107,12 +106,12 @@
           <p>I continue to strive to incorporate different frameworks, libraries, and other tools into my coding repetoire. I am currently diving deeper into React.js, Angular.js, and Next.js. </p>
         </div>
         <div class="skillIcons">
-          <img src="/assets/img/html.png" alt="">
-          <img src="/assets/img/css.png" alt="">
-          <img src="/assets/img/js2.jpeg" alt="">
-          <img src="/assets/img/node4.png" alt="">
-          <img src="/assets/img/react.png" alt="">
-          <img src="/assets/img/mongo.png" alt="">
+          <img src="/assets/img/html.png" alt="html icon">
+          <img src="/assets/img/css.png" alt="css icon">
+          <img src="/assets/img/js2.jpeg" alt="javascript icon">
+          <img src="/assets/img/node4.png" alt="node icon">
+          <img src="/assets/img/react.png" alt="react icon">
+          <img src="/assets/img/mongo.png" alt="mongodb icon">
         </div>
         <div class="skillButtons">
           <button>TypeScript</button>
@@ -136,84 +135,88 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Check out some of my recent projects below</p>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-12 col-md-12 portfolio-item filter-app">
+            <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
             <div class="portfolio-wrap">
-              <img src="assets/img/bookclubfinal.gif"  class="img-fluid" alt="">
+              <img src="./assets/img/bookclubcover.png"  class="col-lg-12 img-fluid" alt="cover image of Book Club website">
               <div class="portfolio-info">
                 <h4>Book Club</h4>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-lg-12 col-md-12 portfolio-item filter-app">
+            <a href="portfolio-kingofthehill.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/kingofthehillcover.png" class="col-lg-12 image-fluid" alt="cover image of King of the Hill website">
+              <div class="portfolio-info">
+                <h4>King of the Hill</h4>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-lg-12 col-md-12 portfolio-item filter-card">
+            <a href="portfolio-futureu.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/futureucover.png" class="col-lg-12 img-fluid" alt="cover image of the Future U Dashboard website">
+              <div class="portfolio-info">
+                <h4>Future U Dashboard</h4>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+
+          <div class="col-lg-12 col-md-12 portfolio-item filter-web">
+            <a href="portfolio-details2.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/nasacover.png" class="col-lg-12 img-fluid" alt="cover image of the Denver Astronomical Society APOD website">
+              <div class="portfolio-info">
+                <h4>Denver Astronomical Society APOD</h4>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-lg-12 col-md-12 portfolio-item filter-web">
+            <a href="portfolio-teatime.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/teatimecover.png" class="img-fluid" alt="cover image of the Tea Time Website">
+              <div class="portfolio-info">
+                <h4>Tea Time</h4>
+                <div class="portfolio-links">
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <!--<div class="col-lg-12 col-md-12 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/COMING-SOON.jpeg" class="col-lg-12 img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Workout Generator</h4>
                 <div class="portfolio-links">
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-12 col-md-12 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/kingofthehill.gif" class="col-lg-12 image-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>King of the Hill</h4>
-                <div class="portfolio-links">
-                  <a href="portfolio-kingofthehill.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-12 col-md-12 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/future-u-dashboard.gif" class="col-lg-12 img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Future U Dashboard</h4>
-                <div class="portfolio-links">
-                  <a href="portfolio-futureu.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-          <div class="col-lg-12 col-md-12 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/burd5.github.gif" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>NASA Picture of the Day</h4>
-                <div class="portfolio-links">
-                  <a href="portfolio-details2.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-12 col-md-12 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/COMING-SOON.jpeg" class="col-lg-12 img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Tea Time</h4>
-                <div class="portfolio-links">
-                  <!--<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-12 col-md-12 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/COMING-SOON.jpeg" class="col-lg-12 img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Workout Generator</h4>
-                <div class="portfolio-links">
-                  <!--<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div>-->
 
         </div>
 
@@ -382,9 +385,8 @@
           <h2>Contact</h2>
         </div>
 
-        <div class="row mt-1">
 
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -398,19 +400,11 @@
                 <p>austinburdette5@gmail.com</p>
               </div>
 
-              <!--<div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>-->
-
             </div>
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <!--<form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required disabled>
@@ -430,12 +424,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <!--<div class="text-center"><button type="submit">Send Message</button></div>-->
-            </form>
-
-          </div>
-
-        </div>
+            </form>-->
 
       </div>
     </section><!-- End Contact Section -->
