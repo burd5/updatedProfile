@@ -23,7 +23,6 @@ h6 {
 }
 
 .col-lg-4 > img{
-  margin-top: 100px;
   border-radius: 5px;
 }
 
@@ -411,17 +410,12 @@ section {
   color: #728394;
 }
 
-.about .content p:first-of-type{
-  margin-top: 50px;
-}
+
 .about .content p{
  font-size: 18px;
 }
 
-.lastP{
-  font-size: 18px;
-  margin-top: 20px;
-}
+
 
 /*--------------------------------------------------------------
 # Skills
